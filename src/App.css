@@ -1,0 +1,24 @@
+section {
+  margin:5rem;
+}
+.app{
+  height: 100dvh;
+  width:100dvw;
+}
+.container{
+  margin-top:2rem;
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+p:nth-child(3){
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer{
+  margin-top: 12rem;
+  width: min-content;
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
